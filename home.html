@@ -11,8 +11,8 @@
         var xhr = new XMLHttpRequest();
         xhr.open('GET', '/jrenguProject/cate.json' , true)
         xhr.send()
-        xhr.onload = function(response){
-            console.log(response)
+        xhr.onload = function(response, xhr ,status ){
+            console.log(response, xhr ,status)
         }
     </script>
     
